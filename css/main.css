@@ -25,7 +25,7 @@ p {
 }
 
 /***for tablets 768px***/
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
   h1 {
     color: #02cbd2;
   }
@@ -38,7 +38,7 @@ p {
 }
 
 /***for desktop larger than 1200px***/
-@media (min-width: 1201px) {
+@media screen and (min-width: 1201px) {
   h1 {
     color: #6e4b61;
   }
